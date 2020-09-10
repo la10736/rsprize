@@ -28,6 +28,15 @@ version = "0.4.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
+name = "members"
+version = "0.1.0"
+dependencies = [
+ "pretty_assertions 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde 1.0.115 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde_json 1.0.57 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
 name = "output_vt100"
 version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -113,15 +122,6 @@ dependencies = [
 name = "unicode-xid"
 version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-
-[[package]]
-name = "users"
-version = "0.1.0"
-dependencies = [
- "pretty_assertions 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "serde 1.0.115 (registry+https://github.com/rust-lang/crates.io-index)",
- "serde_json 1.0.57 (registry+https://github.com/rust-lang/crates.io-index)",
-]
 
 [[package]]
 name = "winapi"
