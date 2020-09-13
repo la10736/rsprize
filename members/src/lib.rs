@@ -33,8 +33,11 @@ pub fn read_all(input: impl std::io::Read) -> Result<Vec<Member>, serde_json::Er
         member: Member,
     }
 
-    serde_json::from_reader::<_, HashMap<String, Container>>(input)
-        .map(|members_map| members_map.into_iter().map(|(_k, c)| c.member).collect())
+    let members_map: HashMap<String, Container> = serde_json::from_reader(input)?;
+
+    let members = members_map.into_iter().map(|(_k, c)| c.member).collect();
+
+    Ok(members)
 }
 
 pub fn read_accepted_rsvp(input: impl std::io::Read) -> Result<Vec<Member>, serde_json::Error> {
@@ -49,18 +52,20 @@ pub fn read_accepted_rsvp(input: impl std::io::Read) -> Result<Vec<Member>, serd
         response: String,
     }
 
-    serde_json::from_reader::<_, HashMap<String, Container>>(input).map(|members_map| {
-        members_map
-            .into_iter()
-            .filter_map(|(_k, c)| {
-                if c.rsvp.response == "yes" {
-                    Some(c.member)
-                } else {
-                    None
-                }
-            })
-            .collect()
-    })
+    let members_map: HashMap<String, Container> = serde_json::from_reader(input)?;
+
+    let members = members_map
+        .into_iter()
+        .filter_map(|(_k, c)| {
+            if c.rsvp.response == "yes" {
+                Some(c.member)
+            } else {
+                None
+            }
+        })
+        .collect::<Vec<_>>();
+
+    Ok(members)
 }
 
 #[cfg(test)]
