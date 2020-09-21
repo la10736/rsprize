@@ -1,30 +1,30 @@
 use std::collections::HashMap;
 
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 
-#[derive(Deserialize, Eq, PartialEq, Debug, Clone)]
+#[derive(Deserialize, Serialize, Eq, PartialEq, Debug, Clone)]
 pub struct Member {
     id: u32,
-    name: String,
-    photo: Option<Photo>,
+    pub name: String,
+    pub photo: Option<Photo>,
 }
 
-#[derive(Deserialize, Eq, PartialEq, Debug, Clone)]
+#[derive(Deserialize, Serialize, Eq, PartialEq, Debug, Clone)]
 #[serde(rename_all = "lowercase")]
 enum Type {
     Member,
 }
 
-#[derive(Deserialize, Eq, PartialEq, Debug, Clone)]
-struct Photo {
+#[derive(Deserialize, Serialize, Eq, PartialEq, Debug, Clone)]
+pub struct Photo {
     #[serde(rename = "type")]
     kind: Type,
     #[serde(rename = "photo_link")]
-    photo: String,
+    pub photo: String,
     #[serde(rename = "thumb_link")]
-    thumb: String,
+    pub thumb: String,
     #[serde(rename = "highres_link")]
-    highres: Option<String>,
+    pub highres: Option<String>,
 }
 
 pub fn read_all(input: impl std::io::Read) -> Result<Vec<Member>, serde_json::Error> {

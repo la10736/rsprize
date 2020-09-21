@@ -1,12 +1,31 @@
 [package]
-name = "rsprinze"
-version = "0.1.0"
 authors = ["Michele d'Amico <michele.damico@gmail.com>"]
 edition = "2018"
+name = "rsprize"
+version = "0.1.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [workspace]
 members = ["members"]
 
+[lib]
+
 [dependencies]
+actix-rt = "1.1.1"
+actix-web = "3.0.2"
+anyhow = "1.0.32"
+env_logger = "0.7.1"
+futures-core = "0.3.5"
+futures-util = "0.3.5"
+log = "0.4.11"
+members = {path = "members"}
+rand = "0.7.3"
+reqwest = "0.10.8"
+serde = "1.0.116"
+serde_json = "1.0.57"
+structopt = "0.3.17"
+
+[dev-dependencies]
+assert_cmd = "1.0.1"
+predicates = "1.0.5"
