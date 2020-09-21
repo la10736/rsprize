@@ -1,6 +1,6 @@
 use std::sync::Mutex;
 
-use anyhow::{anyhow, Result};
+use anyhow::{Context, Result};
 
 use actix_web::{middleware::Logger, web, App, HttpRequest, HttpResponse, HttpServer, Responder};
 use futures_util::StreamExt;
@@ -48,7 +48,8 @@ async fn main() -> Result<()> {
         .unwrap_or(8080);
 
     let addr = format!("127.0.0.1:{}", port);
-    let rng = rsprize::rng::build().or(Err(anyhow!("Cannot build rng")))?;
+
+    let rng = rsprize::rng::build().context("Cannot build rng")?;
 
     HttpServer::new(move || {
         App::new()
@@ -62,5 +63,5 @@ async fn main() -> Result<()> {
     .bind(&addr)?
     .run()
     .await
-    .or(Err(anyhow!("Server Error")))
+    .context("Server Error")
 }

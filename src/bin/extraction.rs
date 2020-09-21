@@ -1,4 +1,5 @@
-use std::{error::Error, path::PathBuf};
+use anyhow::{Context, Result};
+use std::path::PathBuf;
 
 use rand::prelude::SliceRandom;
 use structopt::StructOpt;
@@ -14,11 +15,11 @@ struct Parameters {
     file: PathBuf,
 }
 
-fn main() -> Result<(), Box<dyn Error>> {
+fn main() -> Result<()> {
     let parameters = Parameters::from_args();
     let mut members = members::read_accepted_rsvp(std::fs::File::open(parameters.file)?)?;
 
-    let mut rng = rsprize::rng::build()?;
+    let mut rng = rsprize::rng::build().context("Cannot create random generator")?;
 
     members.sort_by_key(|m| m.name.clone());
     members.shuffle(&mut rng);
