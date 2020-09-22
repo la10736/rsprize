@@ -1,0 +1,1305 @@
+{
+    "0": {
+        "created": 1581673584000,
+        "updated": 1581673584000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 140287212,
+            "name": "Alessandro Re",
+            "photo": {
+                "id": 188191402,
+                "photo_link": "https://secure.meetupstatic.com/photos/member/7/a/a/a/member_188191402.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/7/a/a/a/thumb_188191402.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "1": {
+        "created": 1581689292000,
+        "updated": 1581689292000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 295957187,
+            "name": "Andrea Chiumenti",
+            "photo": {
+                "id": 294416975,
+                "highres_link": "https://secure.meetupstatic.com/photos/member/d/e/8/f/highres_294416975.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/member/d/e/8/f/member_294416975.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/d/e/8/f/thumb_294416975.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "2": {
+        "created": 1581704027000,
+        "updated": 1581704027000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 299645989,
+            "name": "Andrea Rossini",
+            "photo": {
+                "id": 296021826,
+                "highres_link": "https://secure.meetupstatic.com/photos/member/a/3/6/2/highres_296021826.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/member/a/3/6/2/member_296021826.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/a/3/6/2/thumb_296021826.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "3": {
+        "created": 1582103747000,
+        "updated": 1582103747000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 241863690,
+            "name": "Andrea Tomasi",
+            "photo": {
+                "id": 272574329,
+                "highres_link": "https://secure.meetupstatic.com/photos/member/d/4/3/9/highres_272574329.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/member/d/4/3/9/member_272574329.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/d/4/3/9/thumb_272574329.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "4": {
+        "created": 1581402932000,
+        "updated": 1581402932000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 32824762,
+            "name": "andy.petrella",
+            "photo": {
+                "id": 34475972,
+                "highres_link": "https://secure.meetupstatic.com/photos/member/8/c/8/4/highres_34475972.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/member/8/c/8/4/member_34475972.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/8/c/8/4/thumb_34475972.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "5": {
+        "created": 1582098801000,
+        "updated": 1582098801000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 302817453,
+            "name": "diego ",
+            "photo": {
+                "id": 297560717,
+                "highres_link": "https://secure.meetupstatic.com/photos/member/5/0/e/d/highres_297560717.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/member/5/0/e/d/member_297560717.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/5/0/e/d/thumb_297560717.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "6": {
+        "created": 1582106098000,
+        "updated": 1582106098000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 184351144,
+            "name": "Fabio Inguaggiato",
+            "photo": {
+                "id": 243723364,
+                "highres_link": "https://secure.meetupstatic.com/photos/member/d/2/4/highres_243723364.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/member/d/2/4/member_243723364.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/d/2/4/thumb_243723364.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "7": {
+        "created": 1581370643000,
+        "updated": 1582128052000,
+        "response": "no",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 245027891,
+            "name": "Federico Pasqua",
+            "photo": {
+                "id": 273436879,
+                "highres_link": "https://secure.meetupstatic.com/photos/member/4/1/e/f/highres_273436879.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/member/4/1/e/f/member_273436879.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/4/1/e/f/thumb_273436879.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "8": {
+        "created": 1581349516000,
+        "updated": 1581349526000,
+        "response": "no",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 228866377,
+            "name": "Francesco Guardiani",
+            "photo": {
+                "id": 267553951,
+                "highres_link": "https://secure.meetupstatic.com/photos/member/3/6/7/f/highres_267553951.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/member/3/6/7/f/member_267553951.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/3/6/7/f/thumb_267553951.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "9": {
+        "created": 1581347611000,
+        "updated": 1581347611000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 78520502,
+            "name": "Gabriele Lana",
+            "bio": "Software craftsman, clean code disciple, quantified self geek, passionate about getting things done, 15 years on the field and still I love it... like the first day",
+            "photo": {
+                "id": 94952982,
+                "photo_link": "https://secure.meetupstatic.com/photos/member/8/0/d/6/member_94952982.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/8/0/d/6/thumb_94952982.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "role": "coorganizer",
+            "event_context": {
+                "host": true
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "10": {
+        "created": 1582032573000,
+        "updated": 1582032573000,
+        "response": "no",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 192707432,
+            "name": "Giuseppe Arici",
+            "photo": {
+                "id": 249688994,
+                "highres_link": "https://secure.meetupstatic.com/photos/member/7/1/4/2/highres_249688994.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/member/7/1/4/2/member_249688994.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/7/1/4/2/thumb_249688994.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "11": {
+        "created": 1581348577000,
+        "updated": 1582010044000,
+        "response": "no",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 112460072,
+            "name": "Luca Zulian",
+            "bio": "Curious, nothing else",
+            "photo": {
+                "id": 148133682,
+                "photo_link": "https://secure.meetupstatic.com/photos/member/d/1/b/2/member_148133682.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/d/1/b/2/thumb_148133682.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "12": {
+        "created": 1581963477000,
+        "updated": 1581963477000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 267215039,
+            "name": "Marco Bianchi",
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "13": {
+        "created": 1581447284000,
+        "updated": 1581447284000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 248819540,
+            "name": "Marco Grandi",
+            "photo": {
+                "id": 274969684,
+                "highres_link": "https://secure.meetupstatic.com/photos/member/c/2/1/4/highres_274969684.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/member/c/2/1/4/member_274969684.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/c/2/1/4/thumb_274969684.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "14": {
+        "created": 1582092277000,
+        "updated": 1582092277000,
+        "response": "no",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 117563372,
+            "name": "Massimiliano Mantione",
+            "photo": {
+                "id": 155377762,
+                "photo_link": "https://secure.meetupstatic.com/photos/member/9/3/8/2/member_155377762.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/9/3/8/2/thumb_155377762.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "15": {
+        "created": 1581351654000,
+        "updated": 1582099398000,
+        "response": "no",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 208822802,
+            "name": "Matteo Acerbi",
+            "photo": {
+                "id": 272086381,
+                "highres_link": "https://secure.meetupstatic.com/photos/member/b/5/2/d/highres_272086381.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/member/b/5/2/d/member_272086381.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/b/5/2/d/thumb_272086381.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "16": {
+        "created": 1581353596000,
+        "updated": 1581353596000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 281610982,
+            "name": "Michelangelo Mori",
+            "photo": {
+                "id": 292913530,
+                "highres_link": "https://secure.meetupstatic.com/photos/member/d/1/1/a/highres_292913530.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/member/d/1/1/a/member_292913530.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/d/1/1/a/thumb_292913530.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "17": {
+        "created": 1581347611000,
+        "updated": 1581347611000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 68768392,
+            "name": "Michele",
+            "photo": {
+                "id": 80861962,
+                "photo_link": "https://secure.meetupstatic.com/photos/member/a/3/e/a/member_80861962.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/a/3/e/a/thumb_80861962.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "role": "organizer",
+            "event_context": {
+                "host": true
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "18": {
+        "created": 1581348848000,
+        "updated": 1581348848000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 99467682,
+            "name": "Nicola Musatti",
+            "bio": "C++-ista / Pythonista quando posso, Javista per lavoro, soprattutto curioso",
+            "photo": {
+                "id": 257113145,
+                "highres_link": "https://secure.meetupstatic.com/photos/member/3/3/5/9/highres_257113145.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/member/3/3/5/9/member_257113145.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/3/3/5/9/thumb_257113145.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "19": {
+        "created": 1581958562000,
+        "updated": 1581958562000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 298330356,
+            "name": "Pietro Tortella",
+            "photo": {
+                "id": 295423714,
+                "highres_link": "https://secure.meetupstatic.com/photos/member/a/a/c/2/highres_295423714.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/member/a/a/c/2/member_295423714.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/a/a/c/2/thumb_295423714.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "20": {
+        "created": 1581586575000,
+        "updated": 1581586575000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 274785742,
+            "name": "Stefano Montesi",
+            "photo": {
+                "id": 285235238,
+                "highres_link": "https://secure.meetupstatic.com/photos/member/d/7/c/6/highres_285235238.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/member/d/7/c/6/member_285235238.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/d/7/c/6/thumb_285235238.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "21": {
+        "created": 1581513006000,
+        "updated": 1582127360000,
+        "response": "no",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 214111931,
+            "name": "Tomma5o",
+            "photo": {
+                "id": 280034448,
+                "highres_link": "https://secure.meetupstatic.com/photos/member/3/8/7/0/highres_280034448.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/member/3/8/7/0/member_280034448.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/3/8/7/0/thumb_280034448.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    },
+    "22": {
+        "created": 1582133593000,
+        "updated": 1582133593000,
+        "response": "no",
+        "guests": 0,
+        "event": {
+            "id": "268604424",
+            "name": "Rust Retreat",
+            "yes_rsvp_count": 15,
+            "time": 1582137000000,
+            "utc_offset": 3600000
+        },
+        "group": {
+            "id": 12443402,
+            "urlname": "rust-language-milano",
+            "name": "Rust Language Milano",
+            "status": "active",
+            "who": "Rustaceans",
+            "members": 486,
+            "join_mode": "open",
+            "localized_location": "Milano, Italia",
+            "group_photo": {
+                "id": 466865654,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/highres_466865654.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/600_466865654.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/1/6/1/6/thumb_466865654.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            }
+        },
+        "member": {
+            "id": 277371071,
+            "name": "Tommaso Allevi",
+            "photo": {
+                "id": 286463853,
+                "highres_link": "https://secure.meetupstatic.com/photos/member/5/d/2/d/highres_286463853.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/member/5/d/2/d/member_286463853.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/member/5/d/2/d/thumb_286463853.jpeg",
+                "type": "member",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 25057651,
+            "name": "Mikamai / LinkMe",
+            "lat": 45.49053955078125,
+            "lon": 9.215160369873047,
+            "repinned": true,
+            "address_1": "via Giulio e Corrado Venini, 42",
+            "city": "20127",
+            "country": "it",
+            "localized_country_name": "Italia"
+        }
+    }
+}
