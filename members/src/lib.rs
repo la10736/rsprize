@@ -1,14 +1,14 @@
-use serde::Deserialize;
+use serde::{Serialize, Deserialize};
 use std::{collections::HashMap, io::Read};
 
-#[derive(Deserialize, Debug, PartialEq, Eq)]
+#[derive(Deserialize, Serialize, Debug, PartialEq, Eq)]
 pub struct Member {
     id: u64,
     pub name: String,
     pub photo: Option<Photo>,
 }
 
-#[derive(Deserialize, Debug, PartialEq, Eq)]
+#[derive(Deserialize, Serialize, Debug, PartialEq, Eq)]
 pub struct Photo {
     #[serde(rename = "type")]
     pub kind: Type,
@@ -20,7 +20,7 @@ pub struct Photo {
     highres: Option<String>,
 }
 
-#[derive(Deserialize, Debug, PartialEq, Eq)]
+#[derive(Deserialize, Serialize, Debug, PartialEq, Eq)]
 #[serde(rename_all = "lowercase")]
 pub enum Type {
     Member,

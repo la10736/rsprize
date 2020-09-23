@@ -1,8 +1,5 @@
 use anyhow::{Context, Result};
-use rand::{
-    prelude::{SliceRandom, StdRng},
-    SeedableRng,
-};
+use rand::prelude::SliceRandom;
 use std::path::PathBuf;
 
 use structopt::StructOpt;
@@ -16,20 +13,6 @@ struct Params {
     path: PathBuf,
 }
 
-fn build_rng() -> Result<StdRng> {
-    let rng;
-    match std::env::var_os("RSPRIZE_SEED") {
-        Some(seed) => {
-            let seed = seed.into_string().unwrap().parse()?;
-            rng = rand::rngs::StdRng::seed_from_u64(seed);
-        }
-        None => {
-            rng = rand::rngs::StdRng::from_rng(rand::thread_rng())?;
-        }
-    }
-    Ok(rng)
-}
-
 pub fn main() -> Result<()> {
     let params = Params::from_args();
 
@@ -38,7 +21,7 @@ pub fn main() -> Result<()> {
     )
     .context("Extract members")?;
 
-    let mut rng = build_rng()?;
+    let mut rng = rsprize::rng::build()?;
 
     members.sort_by(|x, y| x.name.cmp(&y.name));
     members.shuffle(&mut rng);
