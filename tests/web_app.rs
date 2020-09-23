@@ -1,6 +1,6 @@
 use std::{io::BufRead, io::Read, process::Child, process::Command, process::Stdio};
 
-use members::Member;
+// use members::Member;
 
 fn extract_port(out: impl Read) -> u16 {
     std::io::BufReader::new(out)
@@ -44,73 +44,73 @@ impl Drop for App {
     }
 }
 
-#[actix_rt::test]
-async fn health_check_works() {
-    let app = App::default();
+// #[actix_rt::test]
+// async fn health_check_works() {
+//     let app = App::default();
 
-    let client = reqwest::Client::new();
+//     let client = reqwest::Client::new();
 
-    let response = client
-        .get(&format!("http://127.0.0.1:{}/health_check", app.port))
-        .send()
-        .await
-        .expect("Failed to execute request.");
+//     let response = client
+//         .get(&format!("http://127.0.0.1:{}/health_check", app.port))
+//         .send()
+//         .await
+//         .expect("Failed to execute request.");
 
-    // Assert
-    assert!(response.status().is_success());
-    assert_eq!(Some(0), response.content_length());
-}
+//     // Assert
+//     assert!(response.status().is_success());
+//     assert_eq!(Some(0), response.content_length());
+// }
 
-#[actix_rt::test]
-async fn ask_3_prizes() {
-    let app = App::spawn(vec![("RSPRIZE_PORT", "0"), ("RSPRIZE_SEED", "324563")]);
+// #[actix_rt::test]
+// async fn ask_3_prizes() {
+//     let app = App::spawn(vec![("RSPRIZE_PORT", "0"), ("RSPRIZE_SEED", "324563")]);
 
-    let client = reqwest::Client::new();
+//     let client = reqwest::Client::new();
 
-    let body = std::fs::read_to_string("tests/resources/members.json").unwrap();
+//     let body = std::fs::read_to_string("tests/resources/members.json").unwrap();
 
-    let response = client
-        .get(&format!("http://127.0.0.1:{}/prizes", app.port))
-        .query(&[("n", "3")])
-        .header("Content-Type", "application/x-www-form-urlencoded")
-        .body(body)
-        .send()
-        .await
-        .expect("Failed to execute request.");
+//     let response = client
+//         .get(&format!("http://127.0.0.1:{}/prizes", app.port))
+//         .query(&[("n", "3")])
+//         .header("Content-Type", "application/x-www-form-urlencoded")
+//         .body(body)
+//         .send()
+//         .await
+//         .expect("Failed to execute request.");
 
-    // Assert
-    assert!(response.status().is_success());
+//     // Assert
+//     assert!(response.status().is_success());
 
-    let members: Vec<Member> =
-        serde_json::from_reader(response.text().await.unwrap().as_bytes()).unwrap();
+//     let members: Vec<Member> =
+//         serde_json::from_reader(response.text().await.unwrap().as_bytes()).unwrap();
 
-    assert_eq!(3, members.len());
-    assert_eq!("Nicola Musatti", members[0].name);
-    assert_eq!("Marco Bianchi", members[1].name);
-    assert_eq!("Andrea Rossini", members[2].name);
-}
+//     assert_eq!(3, members.len());
+//     assert_eq!("Nicola Musatti", members[0].name);
+//     assert_eq!("Marco Bianchi", members[1].name);
+//     assert_eq!("Andrea Rossini", members[2].name);
+// }
 
-#[actix_rt::test]
-async fn just_one_prize_if_no_param() {
-    let app = App::default();
+// #[actix_rt::test]
+// async fn just_one_prize_if_no_param() {
+//     let app = App::default();
 
-    let client = reqwest::Client::new();
+//     let client = reqwest::Client::new();
 
-    let body = std::fs::read_to_string("tests/resources/members.json").unwrap();
+//     let body = std::fs::read_to_string("tests/resources/members.json").unwrap();
 
-    let response = client
-        .get(&format!("http://127.0.0.1:{}/prizes", app.port))
-        .header("Content-Type", "application/x-www-form-urlencoded")
-        .body(body)
-        .send()
-        .await
-        .expect("Failed to execute request.");
+//     let response = client
+//         .get(&format!("http://127.0.0.1:{}/prizes", app.port))
+//         .header("Content-Type", "application/x-www-form-urlencoded")
+//         .body(body)
+//         .send()
+//         .await
+//         .expect("Failed to execute request.");
 
-    // Assert
-    assert!(response.status().is_success());
+//     // Assert
+//     assert!(response.status().is_success());
 
-    let members: Vec<Member> =
-        serde_json::from_reader(response.text().await.unwrap().as_bytes()).unwrap();
+//     let members: Vec<Member> =
+//         serde_json::from_reader(response.text().await.unwrap().as_bytes()).unwrap();
 
-    assert_eq!(1, members.len());
-}
+//     assert_eq!(1, members.len());
+// }

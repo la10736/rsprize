@@ -12,19 +12,19 @@ fn resource(name: &str) -> String {
     p.into_os_string().into_string().unwrap()
 }
 
-#[test]
-fn should_extract_2_prize() {
-    let mut cmd = Command::cargo_bin("extraction").unwrap();
+// #[test]
+// fn should_extract_2_prize() {
+//     let mut cmd = Command::cargo_bin("extraction").unwrap();
 
-    let assert = cmd
-        .args(&["-n", "2"])
-        .arg(resource("members.json").as_str())
-        .env("RSPRIZE_SEED", &SEED.to_string())
-        .assert();
+//     let assert = cmd
+//         .args(&["-n", "2"])
+//         .arg(resource("members.json").as_str())
+//         .env("RSPRIZE_SEED", &SEED.to_string())
+//         .assert();
 
-    assert.success().stdout(
-        contains("Nicola Musatti Win!")
-            .and(contains("Marco Bianchi Win!"))
-            .and(contains("Win!").count(2)),
-    );
-}
+//     assert.success().stdout(
+//         contains("Nicola Musatti Win!")
+//             .and(contains("Marco Bianchi Win!"))
+//             .and(contains("Win!").count(2)),
+//     );
+// }

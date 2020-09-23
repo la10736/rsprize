@@ -1,86 +1,3 @@
-use serde::{Serialize, Deserialize};
-use std::{collections::HashMap, io::Read};
-
-#[derive(Deserialize, Serialize, Debug, PartialEq, Eq)]
-pub struct Member {
-    id: u64,
-    pub name: String,
-    pub photo: Option<Photo>,
-}
-
-#[derive(Deserialize, Serialize, Debug, PartialEq, Eq)]
-pub struct Photo {
-    #[serde(rename = "type")]
-    pub kind: Type,
-    #[serde(rename = "photo_link")]
-    pub photo: String,
-    #[serde(rename = "thumb_link")]
-    thumb: String,
-    #[serde(rename = "highres_link")]
-    highres: Option<String>,
-}
-
-#[derive(Deserialize, Serialize, Debug, PartialEq, Eq)]
-#[serde(rename_all = "lowercase")]
-pub enum Type {
-    Member,
-}
-
-pub fn read_all(data: impl Read) -> serde_json::Result<Vec<Member>> {
-    #[derive(Deserialize)]
-    struct Container {
-        member: Member,
-    }
-
-    let members_map: HashMap<String, Container> = serde_json::from_reader(data)?;
-    Ok(members_map.into_iter().map(|(_id, c)| c.member).collect())
-}
-
-pub fn read_accepted_rsvp(data: impl Read) -> serde_json::Result<Vec<Member>> {
-    #[derive(Deserialize)]
-    struct Container {
-        member: Member,
-        rsvp: Rsvp,
-    }
-
-    #[derive(Deserialize)]
-    struct Rsvp {
-        response: String,
-    }
-
-    let members_map: HashMap<String, Container> = serde_json::from_reader(data)?;
-    Ok(members_map
-        .into_iter()
-        .filter_map(|(_id, c)| {
-            if c.rsvp.response == "yes" {
-                Some(c.member)
-            } else {
-                None
-            }
-        })
-        .collect())
-}
-
-pub fn members_from_rsvp(data: impl Read) -> serde_json::Result<Vec<Member>> {
-    #[derive(Deserialize)]
-    struct Container {
-        member: Member,
-        response: String,
-    }
-
-    let members_map: HashMap<String, Container> = serde_json::from_reader(data)?;
-    Ok(members_map
-        .into_iter()
-        .filter_map(|(_id, c)| {
-            if c.response == "yes" {
-                Some(c.member)
-            } else {
-                None
-            }
-        })
-        .collect())
-}
-
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -92,50 +9,50 @@ mod tests {
         mod member {
             use super::{assert_eq, *};
 
-            #[test]
-            fn with_photo() {
-                let json = r#"{
-                    "id":144223344,
-                    "name":"Alessandro Regina",
-                    "photo":{
-                        "id":188991122,
-                        "photo_link":"https://secure.meetupstatic.com/photos/member/7/a/a/a/member_188991122.jpeg",
-                        "thumb_link":"https://secure.meetupstatic.com/photos/member/7/a/a/a/thumb_188991122.jpeg",
-                        "highres_link":"https://secure.meetupstatic.com/photos/member/7/a/a/a/highres_188991122.jpeg",
-                        "type":"member",
-                        "base_url":"https://secure.meetupstatic.com"
-                    }
-                }"#;
+            // #[test]
+            // fn with_photo() {
+            //     let json = r#"{
+            //         "id":144223344,
+            //         "name":"Alessandro Regina",
+            //         "photo":{
+            //             "id":188991122,
+            //             "photo_link":"https://secure.meetupstatic.com/photos/member/7/a/a/a/member_188991122.jpeg",
+            //             "thumb_link":"https://secure.meetupstatic.com/photos/member/7/a/a/a/thumb_188991122.jpeg",
+            //             "highres_link":"https://secure.meetupstatic.com/photos/member/7/a/a/a/highres_188991122.jpeg",
+            //             "type":"member",
+            //             "base_url":"https://secure.meetupstatic.com"
+            //         }
+            //     }"#;
 
-                let member: Member = serde_json::from_str(json).unwrap();
-                assert_eq!(Member {id: 144223344, name: "Alessandro Regina".to_owned(), photo: Some(Photo {
-                    kind: Type::Member,
-                    photo: "https://secure.meetupstatic.com/photos/member/7/a/a/a/member_188991122.jpeg".to_owned(),
-                    thumb: "https://secure.meetupstatic.com/photos/member/7/a/a/a/thumb_188991122.jpeg".to_owned(),
-                    highres: Some("https://secure.meetupstatic.com/photos/member/7/a/a/a/highres_188991122.jpeg".to_owned()),
-                }) }, member)
-            }
+            //     let member: Member = serde_json::from_str(json).unwrap();
+            //     assert_eq!(Member {id: 144223344, name: "Alessandro Regina".to_owned(), photo: Some(Photo {
+            //         kind: Type::Member,
+            //         photo: "https://secure.meetupstatic.com/photos/member/7/a/a/a/member_188991122.jpeg".to_owned(),
+            //         thumb: "https://secure.meetupstatic.com/photos/member/7/a/a/a/thumb_188991122.jpeg".to_owned(),
+            //         highres: Some("https://secure.meetupstatic.com/photos/member/7/a/a/a/highres_188991122.jpeg".to_owned()),
+            //     }) }, member)
+            // }
 
-            #[test]
-            fn without_photo() {
-                let json = r#"{
-                    "id":667788039,
-                    "name":"Marco Verdi",
-                    "event_context":{
-                        "host":false
-                    }
-                }"#;
+            // #[test]
+            // fn without_photo() {
+            //     let json = r#"{
+            //         "id":667788039,
+            //         "name":"Marco Verdi",
+            //         "event_context":{
+            //             "host":false
+            //         }
+            //     }"#;
 
-                let member: Member = serde_json::from_str(json).unwrap();
-                assert_eq!(
-                    Member {
-                        id: 667788039,
-                        name: "Marco Verdi".to_owned(),
-                        photo: None
-                    },
-                    member
-                )
-            }
+            //     let member: Member = serde_json::from_str(json).unwrap();
+            //     assert_eq!(
+            //         Member {
+            //             id: 667788039,
+            //             name: "Marco Verdi".to_owned(),
+            //             photo: None
+            //         },
+            //         member
+            //     )
+            // }
         }
 
         mod members_list {
@@ -185,19 +102,19 @@ mod tests {
                     }
                     "#;
 
-            #[test]
-            fn extract_all() {
-                let members = read_all(DATA.as_bytes()).unwrap();
+            // #[test]
+            // fn extract_all() {
+            //     let members = read_all(DATA.as_bytes()).unwrap();
 
-                assert_eq!(2, members.len());
-            }
+            //     assert_eq!(2, members.len());
+            // }
 
-            #[test]
-            fn extract_just_accepted_rsvp() {
-                let members = read_accepted_rsvp(DATA.as_bytes()).unwrap();
+            // #[test]
+            // fn extract_just_accepted_rsvp() {
+            //     let members = read_accepted_rsvp(DATA.as_bytes()).unwrap();
 
-                assert_eq!(1, members.len());
-            }
+            //     assert_eq!(1, members.len());
+            // }
         }
     }
 }
