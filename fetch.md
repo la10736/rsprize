@@ -28,7 +28,7 @@ La struttura di ritorno e' leggermente diversa
 
 ```
 curl -vX GET localhost:8080/prizes\?n=3 \
-    --header "Content-Type: application/json" \
+    --header "Content-Type: application/x-www-form-urlencoded" \
     -d @members.json \
     > winners.json
 ```
